@@ -36,7 +36,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-markdown_content("intro")
+# markdown_content("intro")
 
 markdown_content("futures_premiums1")
 
@@ -59,11 +59,11 @@ perp_funding_usd_table = st.empty()
 u3 = st.text("Loading...")
 
 
-markdown_content("futures_premiums2")
-markdown_content("perpetuals_funding2")
-markdown_content("explainer")
-markdown_content("risks")
-markdown_content("about")
+#markdown_content("futures_premiums2")
+#markdown_content("perpetuals_funding2")
+#markdown_content("explainer")
+#markdown_content("risks")
+#markdown_content("about")
 
 error_message = "Error loading data. Please refresh the page or try again later."
 RELOAD_INTERVAL_MINS = 5
